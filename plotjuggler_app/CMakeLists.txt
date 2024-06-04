@@ -107,9 +107,9 @@ add_executable(plotjuggler
     ${UI_SRC}
     ${BACKWARD_ENABLE} )
 
-if (NOT WIN32)
-    add_backward(plotjuggler)
-endif()
+# if (NOT WIN32)
+#     add_backward(plotjuggler)
+# endif()
 
 target_link_libraries(plotjuggler
     ${QT_LINK_LIBRARIES}

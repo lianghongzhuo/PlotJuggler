@@ -254,9 +254,9 @@ add_subdirectory( 3rdparty/color_widgets )
 add_subdirectory( 3rdparty/Qt-Advanced-Docking )
 add_subdirectory( 3rdparty/lua-5.4.3 )
 
-if (NOT WIN32)
-  add_subdirectory( 3rdparty/backward-cpp )
-endif()
+# if (NOT WIN32)
+#   add_subdirectory( 3rdparty/backward-cpp )
+# endif()
 
 add_subdirectory( plotjuggler_app )
 
